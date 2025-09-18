@@ -1,6 +1,7 @@
 ((auto-mode-alist . (("[~#]\\'" . (ignore t))
                      ("/.git/COMMIT_EDITMSG\\'" . diff-mode)
                      ("/[._]clang-format\\'" . yaml-mode)
+                     ("\\.ya?ml\\'" . yaml-ts-mode)
                      ("\\.json\\'" . js-json-mode)  ; json-ts-mode 总是用 space 缩进, 没办法了.
                      ("\\.mjs\\'" . javascript-mode)
                      ))
@@ -14,8 +15,9 @@
          (sentence-end-double-space . t)
 
          (eval . (when buffer-file-name
-                   (when (string-match-p "\\`\\(LICENSE\\|License\\|license\\|COPYING\\)\\'"
-                                         (file-name-base buffer-file-name))
+                   (when (string-match-p
+                           "\\`\\(LICENSE\\|License\\|license\\|COPYING\\)\\'"
+                           (file-name-base buffer-file-name))
                      (setq-local buffer-read-only t))))
 
          (eval . (line-number-mode -1))
