@@ -1,0 +1,6 @@
+-fsyntax-only
+-std=c++26
+-Wpedantic
+-Wall
+-W
+-ferror-limit=0
