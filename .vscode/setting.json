@@ -35,7 +35,7 @@
 		"editor.insertSpaces": false,
         "testFlags": ["-test.v"]
 	},
-    
+
     "[javascript]": {
         "editor.tabSize": 4,
         "editor.insertSpaces": true,
@@ -53,5 +53,10 @@
 	},
 
 	"prettier.semi": false,
-	"prettier.arrowParens": "avoid"
+	"prettier.arrowParens": "avoid",
+
+	"files.associations": {
+		".clang-format": "yaml",
+		"_clang-format": "yaml"
+	}
 }

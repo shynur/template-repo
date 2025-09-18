@@ -36,6 +36,6 @@
  (js-json-mode . ((indent-tabs-mode . t)))
  (yaml-mode . ((indent-tabs-mode . nil)
                (tab-width . 2)))
- ("deps" . ((nil . ((eval . (when buffer-file-name
-                              (setq-local buffer-read-only t)))))))
+ ;;("deps" . ((nil . ((eval . (when buffer-file-name
+ ;;                             (setq-local buffer-read-only t)))))))
 )

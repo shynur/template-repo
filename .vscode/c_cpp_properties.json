@@ -6,7 +6,7 @@
                 "${workspaceFolder}/include"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang++-21",
+            "compilerPath": "/bin/clang++-21",
             "cppStandard": "c++26",
             "intelliSenseMode": "gcc-x64",
             "compilerArgs": [
