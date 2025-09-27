@@ -13,7 +13,7 @@ $RECYCLE.BIN/
 ?*.dylib
 ?*.dll
 
-eln_cache/
+eln-cache/
 __pycache__/
 ?*.pyc
 
