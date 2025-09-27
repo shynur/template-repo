@@ -36,6 +36,8 @@
  (makefile-mode . ((whitespace-style . (face tabs))
                    (mode . whitespace)))
  (js-json-mode . ((indent-tabs-mode . t)))
+ (js-mode . ((indent-tabs-mode . nil)
+               (tab-width . 4)))
  (yaml-mode . ((indent-tabs-mode . nil)
                (tab-width . 2)))
  ;;("deps" . ((nil . ((eval . (when buffer-file-name
