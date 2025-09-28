@@ -58,5 +58,10 @@
 	"files.associations": {
 		".clang-format": "yaml",
 		"_clang-format": "yaml"
+	},
+
+	"[html]": {
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false
 	}
 }
