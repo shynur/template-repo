@@ -27,7 +27,9 @@
 
          (project-vc-merge-submodules . nil)
 
-         (auto-revert-verbose . nil)
+         (mode . auto-save)
+
+         (auto-revert-verbose . t)
          (auto-revert-avoid-polling . t)
          ;;(eval . (when buffer-file-name
          ;;          (when (string-match-p "\\.log\\.txt\\'" buffer-file-name)
