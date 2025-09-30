@@ -32,3 +32,5 @@ __pycache__/
 ?*.[gx7]z
 ?*.zip
 ?*.tar
+
+nohup.out
