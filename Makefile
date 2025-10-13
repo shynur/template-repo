@@ -1,5 +1,7 @@
 SHELL = /bin/bash -O globstar
-export CXXFLAGS = -std=c++26 -Wpedantic -Wall -W -O0 -g3
+
+export CFLAGS = $(shell echo "$$CFLAGS")
+export CXXFLAGS = -Wpedantic -Wall -W $(shell echo "$$CXXFLAGS")
 
 .PHONY: all
 all:
