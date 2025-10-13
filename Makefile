@@ -6,10 +6,7 @@ all:
 
 .PHONY: clean
 clean:
-	rm -f   ./**/?*~
-	rm -f  ./**/.?*~
-	rm -f   ./**/\#?*\#
-	rm -f  ./**/.\#?*
+	rm -f   ./**/?*~   ./**/.?*~   ./**/\#?*\#   ./**/.\#?*
 	rm -rf  bin
 	rm -f  ./**/?*.el[cn]
 	rm -f  ./**/?*.{so,dylib,dll}
