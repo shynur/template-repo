@@ -34,3 +34,13 @@ __pycache__/
 ?*.tar
 
 nohup.out
+
+wget-log
+wget-log.[0-9]
+wget-log.[0-9][0-9]
+wget-log.[0-9][0-9][0-9]
+wget-log.[0-9][0-9][0-9][0-9]
+wget-log.[0-9][0-9][0-9][0-9][0-9]
+wget-log.[0-9][0-9][0-9][0-9][0-9][0-9]
+
+gcm.cache/
