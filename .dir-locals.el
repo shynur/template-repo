@@ -2,7 +2,7 @@
                      ("/.git/COMMIT_EDITMSG\\'" . diff-mode)
                      ("/[._]clang-format\\'" . yaml-mode)
                      ("\\.ya?ml\\'" . yaml-ts-mode)
-                     ("/[.]clangd\\'" . yaml-mode)
+                     ("/[.]clangd\\'" . yaml-ts-mode)
                      ("\\.json\\'" . js-json-mode)  ; json-ts-mode 总是用 space 缩进, 没办法了.
                      ("\\.mjs\\'" . javascript-mode)
                      ))
