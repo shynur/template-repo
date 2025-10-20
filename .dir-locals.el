@@ -39,6 +39,7 @@
          (treesit-font-lock-level . 4)))
  (makefile-mode . ((whitespace-style . (face tabs))
                    (mode . whitespace)))
+ (markdown-mode . ((markdown-fontify-code-blocks-natively . t)))
  (js-json-mode . ((indent-tabs-mode . t)))
  (js-mode . ((indent-tabs-mode . nil)
                (tab-width . 4)))
