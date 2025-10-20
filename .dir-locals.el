@@ -1,6 +1,6 @@
 ((auto-mode-alist . (("[~#]\\'" . (ignore t))
                      ("/.git/COMMIT_EDITMSG\\'" . diff-mode)
-                     ("/[._]clang-format\\'" . yaml-mode)
+                     ("/[._]clang-format\\'" . yaml-ts-mode)
                      ("\\.ya?ml\\'" . yaml-ts-mode)
                      ("/[.]clangd\\'" . yaml-ts-mode)
                      ("\\.json\\'" . js-json-mode)  ; json-ts-mode 总是用 space 缩进, 没办法了.
