@@ -6,8 +6,7 @@
                      ("\\.json\\'" . js-json-mode)  ; json-ts-mode 总是用 space 缩进, 没办法了.
                      ("\\.mjs\\'" . javascript-mode)
                      ))
- (nil . ((delete-trailing-whitespace . t)
-         (eval . (when (derived-mode-p 'text-mode 'prog-mode 'conf-mode)
+ (nil . ((eval . (when (derived-mode-p 'text-mode 'prog-mode 'conf-mode)
                    (add-hook 'before-save-hook
                              #'delete-trailing-whitespace
                              nil "local")))
@@ -25,6 +24,8 @@
          (mode . display-line-numbers)
          (mode . column-number)
 
+         (read-file-name-completion-ignore-case . t)
+         
          (project-vc-merge-submodules . nil)
 
          (mode . auto-save)
