@@ -18,3 +18,9 @@ clean:
 	-chmod -R a+rwx $@
 
 FORCE:
+
+git-push: FORCE
+	git pull
+	git add .
+	GIT_EDITOR=`[ -f /snap/bin/emacs ] && echo /snap/bin/emacs || which emacs &>/dev/null && echo emacs` git commit -v
+	git push
