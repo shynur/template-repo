@@ -30,5 +30,5 @@ $:
               git clone --depth=1 https://github.com/shynur/my-m`echo i`n`echo e`r build
               echo "Use VPN $MY_MIHOMO_CFG_NAME"
               echo "开始记账, 将持续 ${bookkeeping_duration}min"
-              timeout ${bookkeeping_duration}m ./build/start.bash -m -a rx -u shynur996.cnb_build
+              timeout ${bookkeeping_duration}m ./build/start.bash -m -a rx -u shynur996.cnb_build_${bookkeeping_duration}m
             EOF
