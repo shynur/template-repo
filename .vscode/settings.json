@@ -1,7 +1,6 @@
 {
 	"workbench.startupEditor": "readme",
     "workbench.editor.enablePreview": false,
-    "chat.disableAIFeatures": true,
 
 	"markdown.preview.breaks": false,
 
